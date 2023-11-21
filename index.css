@@ -1,8 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    margin: 0px !important;
+}
 .header {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .logo-container {
     display: flex;
@@ -40,7 +50,7 @@
 .res-card {
     padding: 5px;
     margin: 10px;
-    width: 170px;
+    width: 210px;
 }
 .res-card:hover {
     cursor: pointer;
@@ -59,7 +69,7 @@
     color: gray;
     background-color: white;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
 }
 .filter-btn:hover {
     background-color: rgb(231, 226, 226);
@@ -97,7 +107,8 @@
 }
 .search-text {
     margin-right: 15px;
-    padding: 10px;
+    padding: 5px;
+    width: 210px;
 }
 .search {
     margin-right: 30px;
@@ -117,3 +128,61 @@
     justify-content: space-between;
     align-items: center;
 }
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 30px 0px;
+}
+.res-banner {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+.res-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border-bottom: 1px solid black;
+}
+.res-details-left > h1 {
+    margin-bottom: 10px !important;
+}
+.dish-list {
+    margin-top: 20px;
+    width: 60%;
+}
+.dish {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.vegOrnon {
+    width: 15px;
+    height: 15px;
+    padding-bottom: 5px;
+}
+.dish-left {
+    display: flex;
+    flex-direction: column;
+}
+.dish-image {
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+}
+.dish-description {
+    color:rgb(82, 80, 80);
+    font-size: small;
+    margin-top: 20px;
+}
+.toggle-switch {
+    margin: 30px 0px 10px 0px;
+}
+.contact, .about {
+    margin: 10px 15px 15px 15px;
+} */

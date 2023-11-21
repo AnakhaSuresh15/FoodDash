@@ -7,23 +7,23 @@ const Header = () => {
 
     const [ loggedState, setLoggedState ] = useState("Login");
     return (
-        <div className="header">
-            <div className="logo-container">
-                <img className="logo" src={LOGO_URL} />
-                <div className="logo-name">FoodDash</div>
+        <div className="flex justify-between border-black shadow-lg h-20">
+            <div className="flex">
+                <img className="w-35" src={LOGO_URL} />
+                <div className="font-sans self-center text-3xl">FoodDash</div>
             </div>
-            <div className="nav-items">
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
+            <div className="flex p-50 items-center mr-7">
+                <ul className="flex text-md list-none">
+                    <li className="p-2 m-2">
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/">Home</Link>
                     </li>
-                    <li>
-                        <Link to="/about">About Us</Link>
+                    <li className="p-2 m-2">
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/about">About Us</Link>
                     </li>
-                    <li>
-                        <Link to="/about">Contact Us</Link>
+                    <li className="p-2 m-2">
+                        <Link style={{textDecoration: 'none', color: 'black'}} to="/contact">Contact Us</Link>
                     </li>
-                    <li>Cart</li>
+                    <li className="p-2 m-2">Cart</li>
                 </ul>
                 <button className="loggedbtn" 
                     onClick={() => {
